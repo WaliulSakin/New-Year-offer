@@ -1,0 +1,93 @@
+body {
+    font-family: "Work Sans",sans-serif;
+}
+
+.top {
+    background-image: url(images/Banner\ Image.png);
+    color: white;
+    margin: 20px 0px 0px 90px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 68vh;
+    width: 86%;
+    align-items: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    border-radius: inherit;
+}
+
+.top h3 {
+    position: relative;
+    z-index: 2;
+}
+
+.top h1 {
+    z-index: 2;
+    position: relative;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+.top h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.top h1 {
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: 0%;
+}
+
+.deals {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.party {
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    margin: 20px 0px 0px 90px; /* same as .top*/
+    height: 68vh;
+    position: relative;
+    border-radius: 10px;
+    width: 86%; /* same as .top*/
+
+}
+
+
+.party::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0));
+    border-radius: inherit;
+}
+
+.party-text {
+    color: white;
+    padding: 40px 0px 0px 60px;
+    z-index: 2;
+    position: relative;
+}
