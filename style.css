@@ -160,3 +160,27 @@
 .offer p {
     color: rgba(0,0,0,0.7);
 }
+
+.sale {
+    text-align: center;
+    width: 86%; /* same as .top */
+    margin: 90px 0px 0px 90px; /* same as .top */
+}
+
+.sale h1 {
+    font-size: 50px;
+    margin-top: -5px;
+    font-family: "Merriweather",serif;
+}
+
+.sale h3 {
+    font-family: "Inter", sans-serif;
+    color: rgba(0,0,0,0.8);
+}
+
+.sale p {
+    font-family: "Inter", sans-serif;
+    padding: 0px 190px;
+    line-height: 1.5;
+    color: rgba(0,0,0,0.7);
+}
