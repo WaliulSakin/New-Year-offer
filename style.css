@@ -184,3 +184,37 @@
     line-height: 1.5;
     color: rgba(0,0,0,0.7);
 }
+
+.saleimg {
+    background-image: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100px;
+    display: flex;
+    margin: 0px 90px;
+}
+
+.portfolio {
+    margin: 0px 90px;
+    margin-top: 110px;
+}
+
+.porttext {
+    width: 65%;
+    padding-bottom: 30px;
+}
+
+.porttext h3 {
+    font-family: "Inter", sans-serif;
+}
+
+.porttext h2 {
+    font-family: "Merriweather",serif;
+    margin-top: -10px;
+}
+
+.porttext p {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    color: rgba(0,0,0,0.7);
+}
